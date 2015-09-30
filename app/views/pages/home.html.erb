@@ -1,0 +1,14 @@
+<h1> Hello World! </h1>
+<% @users.each do |u| %>
+  <div><%= u.name %></div>
+  <div><%= u.email %></div>
+  <div><%= u.age %></div>
+<% end %>
+
+<% @todo.each do |t| %>
+  <div> <%= t.todo %> </div>
+<% end %>
+
+<%@cats.each do |c| %>
+  <div> <%= c.name %> </div>
+<% end %>
